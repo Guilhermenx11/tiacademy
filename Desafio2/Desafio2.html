@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="../Desafio2/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>ME ACHA!</h1>
+        <h2>ENCONTRE UM ENDEREÇO PELO NUMERO DE CEP</h2>
+    </header>
+    <main>
+        <div class="logo"><span class="material-icons icon">
+            pin_drop
+            </span></div>
+        <div id="dados">
+            <form method="POST" name="Busca">
+                <fieldset >
+                    <label for="CEP" class="nome">CEP</label>
+                    <input type="text" required class="lista" name="CEP" value="">
+                    <label for="rua" class="nome">Rua</label>
+                    <input type="text" required class="lista" name="rua" value="">
+                    <label for="bairro" class="nome">Bairro</label>
+                    <input type="text" required class="lista" name="bairro" value="">
+                    <label for="cidade" class="nome">Cidade</label>
+                    <input type="text" required class="lista" name="cidade" value="">
+                    <label for="estado" class="nome">Estado</label>
+                    <input type="text" required class="lista" name="estado" value="">
+                    <input type="submit" class="lista enviar" name="enviar" value="BUSCAR">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>

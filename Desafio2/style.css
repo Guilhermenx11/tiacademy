@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    position: relative;
+}
+header {
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to top, #1A237E, #1565C0, #1976D2);
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    padding-top: 55px;
+    font-size: 40px;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+}
+.logo {
+    background-color: white;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    top: 25%;
+    right: 48%;
+    text-align: center;
+}
+.icon {
+    padding-top: 20px;
+    color: cornflowerblue;
+    font-size: 70px;
+}
+.imagem {
+    width: 50px;
+    height: 50px;
+}
+#dados {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+.mais {
+    width: auto;
+    height: auto;
+    padding:5px
+}
+.lista {
+    display: block;
+    width: 300px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.nome {
+    font-size: 15px;
+    font-family: Arial;
+}
+fieldset {
+    border: none;
+}
+.enviar {
+    background-color: #1565C0;
+    border-bottom: 4px solid #1A237E;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
