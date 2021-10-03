@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+div{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 30px auto;
+    /*background-color: rgba(33, 150, 243, 0.9);*/
+    /*background: linear-gradient(to bottom, #FF7043, #5D4037, #EEEEEE);*/
+    background: radial-gradient();
+}

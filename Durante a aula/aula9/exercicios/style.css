@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url(../exercicios/among-us_AodcjWp.jpg);
+    background-repeat: repeat-x;
+    background-size: 25%;
+}

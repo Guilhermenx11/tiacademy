@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header {
+    width: 100%;
+    height: 200px;
+    border: 5px double white;
+    background-image: url(../Treinamento/img/header.jpg);
+    position: relative;
+    border-radius: 10px;
+}
+h1 {
+   font-size: 80px;
+   color: white;
+   position: absolute;
+   right: 5px;
+   text-align: center;
+   top: 30px;
+}
+h1 > .nomesite {
+    color: white;
+    text-decoration: none;
+}
+h2 {
+    color: white;
+    position: absolute;
+    right: 150px;
+    top:105px;
+}
+nav#top {
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+nav#top > .linknav {
+    color: white;
+    text-decoration: none;
+}
+.linknav {
+    margin-right: 20px;
+    margin-left: 2px;
+}
+#cont {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+}
+h3#cont > .cont {
+    color:white;
+    text-decoration: none;
+}
+
+/* Header Basico */
+
+body  {
+    background-color: whitesmoke;
+}

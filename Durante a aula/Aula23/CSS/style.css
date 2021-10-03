@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main,  header, footer{
+    width: 80%;
+    background-color: rgb(0, 196, 16);
+    margin: 10px auto 10px auto;
+}
+main  {
+    height: auto;
+}
+header, footer {
+    height: 60px;
+}
+footer {
+    height: auto;
+}
+.ajuste {
+    height: 30vh;
+    background-color: blue;
+}
+.content > div, footer > div {
+    width: 48%;
+    height: 200px;
+    background-color: brown;
+}
+.flex {
+    display: flex;
+}
+.spacebt {
+    justify-content: space-between;
+}
+section {
+    margin: 10px 0 10px 0;
+    background-color: burlywood;
+}
+@media screen and (max-width:700px) {
+    body {
+        background-color: black;
+    }
+    section {
+        height: auto;
+        flex-direction: column;
+    }
+    .content > div {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}

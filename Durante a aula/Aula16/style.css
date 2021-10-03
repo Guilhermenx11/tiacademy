@@ -1,0 +1,29 @@
+:root {
+     --cor_background_body: black;
+}
+
+*{
+    padding: 0;
+    margin:0;
+    border: 0;
+}
+
+body  {
+    background-color: var(--cor_background_body);
+}
+
+div#quadrado  {
+    margin:50px auto;
+    width: 300px;
+    height: 300px;
+    border: 2px double red;
+    background-color: white;
+}
+div#quadrado > #forma {
+    width: 100px;
+    /* height: 100px;  */
+    height: 30px;
+    background-color: sandybrown;
+    margin: 50px auto;
+    border-radius: 100px;
+}

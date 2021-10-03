@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#games {
+    background-image: url(../aula9/jogos-bombavam-10-anos-super-mario-god-war-minecraft.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    border: 3px solid blue;
+    width: 100%;
+    height: 600px;
+}

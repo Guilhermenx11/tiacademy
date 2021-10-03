@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: royalblue;
+    }
+    main {
+        margin: 50px auto;
+        height: auto;
+        width: 80%;
+        border: 2px dotted rebeccapurple;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: seashell;
+    }
+    h2 {
+        font-size: 0.8em;
+        padding: 5px 0 9px 0;
+    }
+    .borda {
+        border: 1px solid red;
+    }
+    .margem {
+        margin-left: 30px;
+    }
+    .remove-bullet {
+        list-style: none;
+    }
+    li {
+        width: 100%;
+        height: auto;
+        background-color: yellow;
+        margin: 2px
+    }
+    ol {
+        width: 200px;
+        height: auto;
+    }
+    div {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        background-color: tomato;
+        margin: 5px;
+        display: inline-block;
+    }
+    a {
+        display: block;
+        width: 100%;
+        height: 20px;
+        border:1px  solid   black;
+    }
+</style>
+<body>
+    <main>
+        <h2>LISTA DESORDENADA</h2>
+        <!-- lista desordenada -->
+        <ul class="borda margem remove-bullet">
+            <li>AAAAA</li>
+            <li>BBBBB</li>
+            <li>CCCCC</li>
+            <li>DDDDD</li>
+            <li><a href="#">CLIQUE AQUI</a></li>
+        </ul>
+
+        <h2>LISTA ORDENADA</h2>
+        <!-- lista desordenada -->
+        <ol class="margem" type="I">
+            <li>AAAAA</li>
+            <li>BBBBB</li>
+            <li>CCCCC</li>
+            <li>DDDDD</li>
+            <li><a href="#">CLIQUE AQUI</a></li>
+        </ol>
+
+        <h2>LISTA POR DEFINIÇÃO</h2>
+        <!-- lista desordenada -->
+        <dl>
+            <dt><strong>FIAT</strong></dt>
+            <dd>Tempra</dd>
+            <dd>uno</dd>
+            <dt><strong>VW</strong></dt>
+            <dd style="color: red;">fusca</dd>
+            <dd>gol</dd>
+        </dl>
+        <div></div>
+        <div></div>
+        <div></div>
+    </main>
+</body>
+</html>
