@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <script>
+
+//match() O método match procura uma palavra em uma string.
+// g/i/m
+
+let nome =("Luis Guilherme da Cunha")
+
+// console.log(nome.match("e"))
+
+//O método serach() procura pela ocorrência e retornando a posição na cadeia da string
+
+// console.log(nome.search("e"))
+// console.log(nome.search(/g/i))
+
+//replace() Este método substitui uma string por outra, simples assim, ele pesquisa
+
+// let letra= `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod harum ex, obcaecati eius facere tenetur optio sapiente est sit blanditiis aliquam iusto,
+//  beatae quisquam dignissimos explicabo, tempora odit ipsum repellat?`
+
+//  let letra2= letra.replace(/i/gi,'y')
+
+//  console.log(letra2)
+
+
+ //O método localeCompare( ) compara  efetua a comparação entre duas strings
+
+        // let gato="gato"
+        // let outroGato="gato"
+
+        // console.log(gato.localeCompare(outroGato));
+
+//toString() O uso da toString irá converter um valor qualquer em uma um srtring.
+
+// let num= Number('1')
+
+// console.log(num.toString)
+
+//toLowerCase() Faz a conversão de uma string inteira para caracteres minúsculos (caixa baixa)
+
+// let letra= `lorem ipsum, dolor sit amet consectetur adipisicing elit. quod harum ex, 
+// obcaecati eius facere tenetur optio sapiente est sit blanditiis aliquam iusto`
+// console.log(letra.toLocaleLowerCase())
+
+//trim() Faz a remoção de espaços antes e depois da string especificada.
+
+// let letra= `      lorem ipsum, dolor sit amet consectetur adipisicing elit. quod harum ex, 
+// obcaecati eius facere tenetur optio sapiente est sit blanditiis aliquam iusto       `
+
+// console.log(letra.trim());
+
+// let letra1= `         lorem ipsum, dolor sit amet consectetur adipisicing elit. quod harum ex, 
+// obcaecati eius facere tenetur optio sapiente est sit blanditiis aliquam iusto    `
+
+// console.log(letra1)
+
+//NaN
+//Quando uma string for passada para Number( ),  parseInt ou parseFloat) e 
+//não consiga efetuar a conversão será retornando NaN (Not as Number). 
+//isNaN( ).
+
+// let num= Number(5);
+// // console.log(isNaN(num))
+
+// if(!isNaN(num)){
+//     console.log('é numero')
+    
+// } else{
+//     console.log("não é numero")
+// }
+
+//toFixed( ) A função “toFixed( )” analisa um valor flutuante e retorna uma 
+//STRING conforme o parâmetro de casas
+
+let valor= 2.5847
+
+// console.log(valor.toFixed());
+
+//O método toLocaleString() irá retornar uma string com 
+//uma representação da moeda definida como no parâmetro currency. 
+//toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
+
+    console.log(valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+
+    </script>
+<body>
+
+    
+</body>
+</html>
